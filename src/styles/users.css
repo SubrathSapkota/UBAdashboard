@@ -1,0 +1,34 @@
+.table-container {
+  margin: 20px;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.user-table th,
+.user-table td {
+  padding: 12px 15px;
+  border: 1px solid #dacccc;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.user-table tbody tr:nth-child(even) {
+  background-color: #94949428;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
